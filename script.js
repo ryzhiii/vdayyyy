@@ -1,6 +1,6 @@
 let yesSize = 20;
 let noSize = 20;
-let noTexts = ["Are you sure?", "Really sure?", "Oh cmon now", "Last chance", "Too late"];
+let noTexts = ["Are you sure?", "Really sure?", "Oh cmon now", "Last chance!", "Too late!"];
 let noClickCount = 0;
 
 function showCelebration() {
@@ -17,7 +17,7 @@ function showCelebration() {
 
     // Create an image element for the celebration GIF
     let gif = document.createElement("img");
-    gif.src = "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDBxdWl6amJodjNnaHg3NXJ4bWd6YW9zaTB3eTA1eHl6b2VkaTN3byZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/rrasLFSTyi4Th1e8Xo/giphy.gif"; // Change this to your preferred GIF
+    gif.src = "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDBxdWl6amJodjNnaHg3NXJ4bWd6YW9zaTB3eTA1eHl6b2VkaTN3byZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/rrasLFSTyi4Th1e8Xo/giphy.gif"; // Change this to your preferred GIF
     gif.alt = "Happy GIF";
     gif.style.width = "700px";
 
