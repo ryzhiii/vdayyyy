@@ -1,0 +1,54 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #ffe6e6;
+    overflow: hidden;
+}
+h1 {
+    color: red;
+    font-size: 2.5rem;
+    margin-top: 20px;
+}
+p {
+    font-size: 1.2rem;
+}
+.buttons {
+    margin-top: 20px;
+}
+button {
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+#yesBtn {
+    background-color: #ff4d4d;
+    color: white;
+}
+#noBtn {
+    background-color: white;
+    color: black;
+}
+#questionGif {
+    width: 250px; /* Adjust size of GIF under question */
+    border-radius: 10px;
+    margin-top: 10px;
+}
+#celebrationContainer {
+    margin-top: 30px;
+}
+img {
+    width: 250px;
+    border-radius: 10px;
+}
+#confettiCanvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+}

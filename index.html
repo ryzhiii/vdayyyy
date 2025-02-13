@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will You Be My Valentine? ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="questionContainer">
+        <h1 id="question">Carah Will You Be My Valentine? ❤️</h1>
+
+        <!-- GIF Under the Question -->
+        <img id="questionGif" src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNmppemgyOHE3aHlnamJxdHg1eDN0eXowem45ZXBiZWUwZW8zYjgzcCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/MX2Qw9C1Us85WkMPWJ/giphy.gif" alt="Cute Cat GIF">
+
+        <div class="buttons">
+            <button id="yesBtn" onclick="showCelebration()">Yes</button>
+            <button id="noBtn" onclick="resizeAndChangeText()">No</button>
+        </div>
+    </div>
+
+    <div id="celebrationContainer">
+        <!-- Celebration content will appear here -->
+    </div>
+
+    <canvas id="confettiCanvas"></canvas>
+
+    <script src="script.js"></script>
+</body>
+</html>
